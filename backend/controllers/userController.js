@@ -73,7 +73,7 @@ const loginUser = asyncHandler(async (req, res) => {
 /**
  * @description Get user information
  * @enpoint GET /api/users/me
- * @access Public
+ * @access Private
  */
 const getUser = asyncHandler(async (req, res) => {
   res.json({ message: "Get User" });
