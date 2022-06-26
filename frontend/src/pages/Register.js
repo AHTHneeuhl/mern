@@ -29,7 +29,6 @@ const Register = () => {
         <h1>
           <FaUser /> Register
         </h1>
-        <p>Please create an account</p>
       </div>
       <div className="form">
         <form onSubmit={onFormSubmit}>
