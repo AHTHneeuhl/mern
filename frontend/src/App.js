@@ -1,4 +1,6 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { Register, Login, Dashboard } from "./pages";
 import { Navbar } from "./components";
 
@@ -13,6 +15,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
         </Routes>
       </div>
+      <ToastContainer />
     </BrowserRouter>
   );
 };
